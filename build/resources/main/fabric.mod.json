@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "more_uses",
+  "version": "1.0",
+  "name": "More uses",
+  "description": "More Uses",
+  "authors": [
+    "Maksimys_"
+  ],
+  "contact": {
+    "homepage": "https://legacy.curseforge.com/minecraft/mc-mods/more-uses",
+    "sources": ""
+  },
+  "license": "Academic Free License v3.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.maksimys.more_uses.MoreUsesMod"
+    ],
+    "client": [
+      "com.maksimys.more_uses.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "~1.20",
+    "java": ">=17"
+  }
+}
