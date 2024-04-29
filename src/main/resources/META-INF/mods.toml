@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="more_uses"
+version="1.0"
+displayName="More uses"
+displayURL="https://legacy.curseforge.com/minecraft/mc-mods/more-uses"
+credits="Made by Maksimys"
+authors="Maksimys_"
+description="More Uses"
+displayTest="IGNORE_SERVER_VERSION"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.more_uses]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
